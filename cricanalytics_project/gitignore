@@ -1,0 +1,50 @@
+# -----------------------------
+# Python / Streamlit Project Gitignore
+# -----------------------------
+
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment folders
+env/
+venv/
+.venv/
+ENV/
+
+# System files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Jupyter or notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode and IDE configs
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Streamlit and cache folders
+.streamlit/
+.cache/
+logs/
+
+# Local data files (optional)
+data/*.yaml
+data/*.yml
+
+# Python packaging files
+build/
+dist/
+*.egg-info/
+
+# Credentials / keys (if added later)
+*.env
+.env
